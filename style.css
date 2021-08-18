@@ -1,11 +1,15 @@
-body {
-  background-color: #c24d42;
-  color: #fab861;
+body { 
+  background: -webkit-radial-gradient(circle 2000px,  #DD5E89, #F7BB97);
+  background: -moz-radial-gradient(circle 2000px,  #DD5E89, #F7BB97);
+  background: -o-radial-gradient(circle 2000px,  #DD5E89, #F7BB97);
+  background: radial-gradient(circle 2000px,  #DD5E89, #F7BB97);  
+  background-color: #DD5E89;
+  color: #ffeaad;
   text-shadow:
-		-.1px -.1px 0 #474747,
-		.1px -.1px 0 #474747,
-		-.1px .1px 0 #474747,
-		.1px .2px 0 #474747;
+    -.1px -.1px 0 #474747,
+    .1px -.1px 0 #474747,
+    -.1px .1px 0 #474747,
+    .1px .2px 0 #474747;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
 }
@@ -46,7 +50,7 @@ a:active {
 }
 
 a:link {
-  color: #fab861;
+  color: #ffeaad;
 }
 
 a:visited {
@@ -54,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  color: #f7910a;
+  color: #ffdeed;
 }
 
 a:active {
