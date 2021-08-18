@@ -6,131 +6,135 @@
   <title>Kayla Mir Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-  
 <body>
-  
-      <div class="hero-image">
-      </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
 
-      <div>
-        <h1 id="name">Kayla Mir</h1>
-        <h4 id="contact">1120 S 2nd St Unit 201, Minneaepolis MN 55415 | 507-382-1205 | <a href="mailto:kayla.mir32@gmail.com">kayla.mir32@gmail.com</a></h4>
-        <p id="tagline">Professional and Empathetic Certified Nursing Assistant with a background in customer service.</p>
-      </div>
+        window.onscroll = function() {scrollFunction()};
 
-      <div class="exp-header">
-        <h3>Skills</h3>
-      </div>
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
 
-      <div id="skills-1">
-        <ul>
-          <li>Fast learner</li>
-          <li>Excellent computer skills</li>
-          <li>Comfortable with math</li>
-          <li>Wonderful teamwork</li>
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
 
-        </ul>
-      </div>
+    <div class="hero-image">
+    </div>
 
-       <div id="skills-2">
-        <ul>
-          <li>Self-motivated</li>
-          <li>Dependable</li>
-          <li>Solid organizational skills</li>
-          <li>Ability to multitask</li>
-        </ul>
-      </div>
+    <div>
+      <h1 id="name">Kayla Mir</h1>
+      <h4 id="contact">1120 S 2nd St Unit 201, Minneaepolis MN 55415 | 507-382-1205 | <a href="mailto:kayla.mir32@gmail.com">kayla.mir32@gmail.com</a></h4>
+      <p id="tagline">Professional and Empathetic Certified Nursing Assistant with a background in customer service.</p>
+    </div>
 
-      <div id="clearme">
+    <div class="exp-header">
+      <h3>Skills</h3>
+    </div>
 
-      </div>
+    <div id="skills-1">
+      <ul>
+        <li>Fast learner</li>
+        <li>Excellent computer skills</li>
+        <li>Comfortable with math</li>
+        <li>Wonderful teamwork</li>
+      </ul>
+    </div>
 
-      <div class="exp-header">
-        <h3>Professional Experience</h3>
-      </div>
+    <div id="skills-2">
+      <ul>
+        <li>Self-motivated</li>
+        <li>Dependable</li>
+        <li>Solid organizational skills</li>
+        <li>Ability to multitask</li>
+      </ul>
+    </div>
 
-      <div id="jobs">
-        <h4>Weston County Health Services</h4>
-        <h5>Certified Nursing Assistant</h5>
-        <h6>March 2016 - September 2016</h6>
+    <div id="clearme"></div>
 
-          <ul>
-            <li>Helped patients move in and out of beds, baths, wheelchairs, and automobiles.</li>
-            <li>Maintained a clean, healthy, and safe environment.</li>
-            <li>Assisted with patient transfer and ambulation.</li>
-            <li>Followed safe lifting techniques and individual resident lifting instructions.</li>
-            <li>Answered patient calls for care and feeding.</li>
-            <li>Documented objective data and routine aspects of patient care.</li>
-            <li>Reported any unusual circumstances in the patients' condition or environment.</li>
-            <li>Answered call lights and aided in patiest comfort and safety by adjusting beds, lights, bed rails, pillows, patients' clothing, and bedside tables/equipment.</li>
-          </ul>
+    <div class="exp-header">
+      <h3>Professional Experience</h3>
+    </div>
 
-      </div>
+    <div id="jobs">
+      <h4>Weston County Health Services</h4>
+      <h5>Certified Nursing Assistant</h5>
+      <h6>March 2016 - September 2016</h6>
+      <ul>
+        <li>Helped patients move in and out of beds, baths, wheelchairs, and automobiles.</li>
+        <li>Maintained a clean, healthy, and safe environment.</li>
+        <li>Assisted with patient transfer and ambulation.</li>
+        <li>Followed safe lifting techniques and individual resident lifting instructions.</li>
+        <li>Answered patient calls for care and feeding.</li>
+        <li>Documented objective data and routine aspects of patient care.</li>
+        <li>Reported any unusual circumstances in the patients' condition or environment.</li>
+        <li>Answered call lights and aided in patiest comfort and safety by adjusting beds, lights, bed rails, pillows, patients' clothing, and bedside tables/equipment.</li>
+      </ul>
+    </div>
 
-      <div id="jobs">
-        <h4>The Short Stop</h4>
-        <h5>Food Service Worker</h5>
-        <h6>March 2014 - June 2014</h6>
+    <div id="jobs">
+      <h4>The Short Stop</h4>
+      <h5>Food Service Worker</h5>
+      <h6>March 2014 - June 2014</h6>
+      <ul>
+        <li>Greeted customer and provided excellent customer service.</li>
+        <li>Pleasantly and courteously interacted with customers.</li>
+        <li>Verified that prepared food met all standards for quality and quantity.</li>
+        <li>Maintained clean and safe environment, including in the kitchen, bathrooms, building exteriors, parking lot, dumpsters, and sidewalk.</li>
+        <li>Reported to each shift on time and ready to work.</li>
+        <li>Diligently restocked work stations and display cases.</li>
+        <li>Immediately informed supervisors when supplies were low or if equipment was not functioning properly.</li>
+      </ul>
+    </div>
 
-          <ul>
-            <li>Greeted customer and provided excellent customer service.</li>
-            <li>Pleasantly and courteously interacted with customers.</li>
-            <li>Verified that prepared food met all standards for quality and quantity.</li>
-            <li>Maintained clean and safe environment, including in the kitchen, bathrooms, building exteriors, parking lot, dumpsters, and sidewalk.</li>
-            <li>Reported to each shift on time and ready to work.</li>
-            <li>Diligently restocked work stations and display cases.</li>
-            <li>Immediately informed supervisors when supplies were low or if equipment was not functioning properly.</li>
-          </ul>
+    <div id="jobs">
+      <h4>Karsky Dairy</h4>
+      <h5>Farm Worker</h5>
+      <h6>May 2006 - March 2013</h6>
+      <ul>
+        <li>Milked 200 head of dairy cattle twice daily.</li>
+        <li>Followed health and safety regulations with regards to sanitation and milk quality.</li>
+        <li>Ensured animal care and well-being.</li>
+        <li>Showed up on time and ready to work.</li>
+      </ul>
+    </div>
 
-      </div>
+    <div class="exp-header">
+      <h3>Education</h3>
+    </div>
 
-      <div id="jobs">
-        <h4>Karsky Dairy</h4>
-        <h5>Farm Worker</h5>
-        <h6>May 2006 - March 2013</h6>
+    <div id="schools-1">
+      <h5>Eastern Wyoming Community College</h5>
+      <h6>2013-2014</h6>
+      <ul>
+        <li>Generals and CNA Course</li>
+        <li>Newcastle, WY</li>
+      </ul>      
+    </div>
 
-          <ul>
-           <li>Milked 200 head of dairy cattle twice daily.</li>
-           <li>Followed health and safety regulations with regards to sanitation and milk quality.</li>
-           <li>Ensured animal care and well-being.</li>
-           <li>Showed up on time and ready to work.</li>
-          </ul>
+    <div id="schools-1">
+      <h5>Dickinson State University</h5>
+      <h6>2011 - 2012</h6>
+      <ul>
+        <li>Generals</li>
+        <li>Dickinson, ND</li>
+      </ul>      
+    </div>
 
-      </div>
-
-      <div class="exp-header">
-        <h3>Education</h3>
-      </div>
-
-      <div id="schools-1">
-        <h5>Eastern Wyoming Community College</h5>
-        <h6>2013-2014</h6>
-          <ul>
-            <li>Generals and CNA Course</li>
-            <li>Newcastle, WY</li>
-          </ul>      
-
-      </div>
-
-      <div id="schools-1">
-        <h5>Dickinson State University</h5>
-        <h6>2011 - 2012</h6>
-          <ul>
-            <li>Generals</li>
-            <li>Dickinson, ND</li>
-          </ul>      
-
-      </div>
-
-      <div id ="schools-1">
-        <h5>Dickinson High School</h5>
-        <h6>2007 - 2011</h6>
-          <ul>
-            <li>Dickinson, ND</li>
-          </ul>
-
-      </div>
-  
-</body>
-  
+    <div id ="schools-1">
+      <h5>Dickinson High School</h5>
+      <h6>2007 - 2011</h6>
+      <ul>
+        <li>Dickinson, ND</li>
+      </ul>
+    </div> 
+</body> 
 </html>
